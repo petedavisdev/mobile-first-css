@@ -1,0 +1,18 @@
+$medium: 590px;
+$large: 885px;
+$xl: 1200px;
+
+@import "body";
+@import "header";
+@import "article";
+@import "footer";
+
+@media (min-width: $medium) {
+    @import "header_medium";
+    @import "footer_medium";
+}
+
+@media (min-width: $large) {
+    @import "body_large";
+    @import "article_large";
+}

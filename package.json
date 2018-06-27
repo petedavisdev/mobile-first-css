@@ -1,0 +1,13 @@
+{
+    "name": "mobile-first-css",
+    "version": "1.0.0",
+    "description": "Mobile-first CSS - a sassy little demo project",
+    "main": "index.html",
+    "author": "Pete Davis",
+    "license": "Unlicense",
+    "homepage": "https://github.com/p440davis/mobile-first-css#readme",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-sass": "^4.0.1"
+    }
+}
