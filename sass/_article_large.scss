@@ -1,7 +1,10 @@
 article {
+    max-width: $large;
+    margin: 0 auto;
+
     img {
         width: 50%;
         float: right;
-        margin-left: 1em;
+        margin: 0 0 1em 1em;
     }
 }

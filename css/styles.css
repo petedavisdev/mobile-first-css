@@ -43,7 +43,10 @@ footer {
 @media (min-width: 885px) {
   body {
     font-size: 1.2em; }
-  article img {
-    width: 50%;
-    float: right;
-    margin-left: 1em; } }
+  article {
+    max-width: 885px;
+    margin: 0 auto; }
+    article img {
+      width: 50%;
+      float: right;
+      margin: 0 0 1em 1em; } }
