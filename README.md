@@ -1,4 +1,4 @@
-# Mobile-first CSS (with SASS or LESS)
+# Mobile-first CSS (with SASS)
 
 Feel free to use this as a starter to get you on the right track with writing mobile-first styles with SASS.
 
