@@ -6,8 +6,13 @@
     "author": "Pete Davis",
     "license": "Unlicense",
     "homepage": "https://github.com/p440davis/mobile-first-css#readme",
+    "scripts": {
+        "scss": "node-sass --importer node_modules/node-sass-glob-importer/dist/cli.js -o dist src/styles.scss"
+    },
     "devDependencies": {
         "gulp": "^3.9.1",
-        "gulp-sass": "^4.0.1"
+        "gulp-sass": "^4.0.1",
+        "node-sass": "^4.12.0",
+        "node-sass-glob-importer": "^5.3.2"
     }
 }

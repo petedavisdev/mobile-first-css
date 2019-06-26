@@ -1,0 +1,17 @@
+@import "components/**/*.0.scss";
+
+@media (min-width: 400) {
+    @import "components/**/*.400.scss";
+}
+
+@media (min-width: 600) {
+    @import "components/**/*.600.scss";
+}
+
+@media (min-width: 900) {
+    @import "components/**/*.900.scss";
+}
+
+@media (min-width: 1200) {
+    @import "components/**/*.1200.scss";
+}
