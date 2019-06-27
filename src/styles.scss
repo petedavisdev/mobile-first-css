@@ -1,11 +1,22 @@
-// @import "variables";
-// @import "fonts";
+@import "_variables";
 
 :root {
   --bright: white;
 }
 
 @import "components/**/*_.scss";
+
+@media (min-width: 350px) {
+  @import "components/**/*_350.scss";
+}
+
+@media (min-width: 400px) {
+  @import "components/**/*_400.scss";
+}
+
+@media (min-width: 500px) {
+  @import "components/**/*_500.scss";
+}
 
 @media (min-width: 600px) {
   @import "components/**/*_600.scss";
@@ -17,4 +28,8 @@
 
 @media (min-width: 1000px) {
   @import "components/**/*_1000.scss";
+}
+
+@media (min-width: 1200px) {
+  @import "components/**/*_1200.scss";
 }

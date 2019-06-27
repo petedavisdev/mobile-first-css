@@ -1,11 +1,11 @@
 header {
   font-size: 0.8rem;
   padding: 1rem;
-  color: white;
-  background-color: slategray;
+  color: var(--light);
+  background-color: var(--primary);
 
   a {
-    color: white;
+    color: var(--light);
   }
 
   nav {

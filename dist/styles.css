@@ -1,12 +1,10 @@
 :root {
+  --dark: #333;
+  --light: #eee;
+  --primary: #666; }
+
+:root {
   --bright: white; }
-
-.image {
-  background-image: url(image@1x.png); }
-
-@media (min-resolution: 2dppx) {
-  .image {
-    background-image: url(image@2x.png); } }
 
 article {
   padding: 1em 1em 4em; }
@@ -17,25 +15,25 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: slategray;
-  background-color: var(--bgc); }
+  color: var(--dark);
+  background-color: var(--light); }
 
 footer {
   font-size: 0.8em;
   padding: 1rem;
   text-align: center;
-  color: white;
-  background-color: slategray; }
+  color: var(--light);
+  background-color: var(--primary); }
   footer a {
     color: white; }
 
 header {
   font-size: 0.8rem;
   padding: 1rem;
-  color: white;
-  background-color: slategray; }
+  color: var(--light);
+  background-color: var(--primary); }
   header a {
-    color: white; }
+    color: var(--light); }
   header nav {
     text-align: right; }
 
